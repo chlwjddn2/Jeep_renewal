@@ -662,6 +662,12 @@ table {
 .footer_site_map p{
   padding: 20px 0;
 }
+.footer_site_map .hide{
+  display: none;
+}
+.footer_site_map ul{
+  display: block;
+}
 .footer_site_map ul li{
   padding: 10px 0;
 }
@@ -702,6 +708,12 @@ table {
     width: 100%;
     margin-bottom: 5px;
     padding: 0 20px;
+  }
+  .footer_site_map p:nth-of-type(1){
+    display: none;
+  }
+  .footer_site_map .hide{
+    display: block;
   }
   .footer_site_map > ul{
     display: none;

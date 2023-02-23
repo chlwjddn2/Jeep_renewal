@@ -43,8 +43,8 @@ $(document).ready(function(){
     }
   })
 
-  $('.footer_site_map > P').click(function(){
-    $(this).siblings().slideToggle();
+  $('.hide').click(function(){
+    $(this).siblings('ul').slideToggle();
     $(this).parents('.footer_site_map').siblings('div').children('ul').slideUp();
   })
 
